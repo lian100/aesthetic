@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Info about the page-->
+  </head>
+  <body>
+    <!--Content seen on the page-->
+    <!--navigationbar-->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="file:///Users/li-an/Documents/contacts.html">Contacts</a>
+      <a href="file:///Users/li-an/Documents/about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">Aesthetics
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="file:///Users/li-an/Documents/sunny.html">sunny</a>
+            <a href="file:///Users/li-an/Documents/pastel.html">pastel</a>
+          </div>
+        </div>
+      </div>
+
+      <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+      </script>
+
+</div>
+    <center>
+      <!--heading and intro-->
+      <h1>Aesthetic</h1>
+      <p>
+        Li-An Lim
+      </p>
+    </center> <!--aesthetic sections-->
+
+
+
+
+  </body>
+</html>
+<link
+rel="stylesheet"
+href="aestheticstyle.css">
